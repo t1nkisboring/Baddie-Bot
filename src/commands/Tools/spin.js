@@ -1,5 +1,5 @@
 import { SlashCommandBuilder, EmbedBuilder, AttachmentBuilder } from 'discord.js';
-import { generateWheelGIF, generateWheelImage, COLOR_PALETTES } from '../wheel-generator.js';
+import { generateWheelGIF, generateWheelImage, COLOR_PALETTES } from './wheel-generator.js';
 
 export const data = new SlashCommandBuilder()
   .setName('spin')
